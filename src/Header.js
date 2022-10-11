@@ -20,11 +20,19 @@ class Header extends React.Component {
                     </div>
                     <div className="header-line-border">
                         <div className="header-line-border-content-1">
-                            <p>АДРЕС</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                            <h2 className="header-line-border-content-h2-info">АДРЕС</h2>
+                            <p>Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit </p>
                         </div>
-                        <div className="header-line-border-content-2"></div>
-                        <div className="header-line-border-content-3"></div>
+                        <div className="header-line-border-content-2">
+                            <h2 className="header-line-border-content-h2-info">ТЕЛЕФОН:</h2>
+                            <p>8 (812) 123-45-67</p>
+                            <p>8-911-123-45-67</p>
+                        </div>
+                        <div className="header-line-border-content-3">
+                            <h2 className="header-line-border-content-h2-info">ТЕЛЕФОН:</h2>
+                            <p>8 (812) 123-45-67</p>
+                            <p>8-911-123-45-67</p>
+                        </div>
                     </div>
                 </header>
 

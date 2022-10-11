@@ -135,6 +135,7 @@ body {
   font-weight: 600;
   color: var(--color2);
   overflow-x: hidden;
+  background: rgba(20, 20, 20, 1)
 }
 
 .navbar-container {
@@ -142,6 +143,7 @@ body {
   display: flex;
   height: 1000px;
   background: url('./bg_header.png') 0 0px no-repeat;
+  margin-bottom: 180px;
 
 }
 
@@ -220,8 +222,8 @@ ul li {
 }
 
 .header-line-border {
+  display: flex;
   position: absolute;
-  top: 103px;
   width: 1920px;
   height: 214px;
   left: 0px;
@@ -239,4 +241,141 @@ ul li {
   flex-direction: column;
   border-right: 1px solid rgba(255, 255, 255, 0.5);
 
+}
+
+.header-line-border-content-2 {
+  width: 33%;
+  height: 214px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.header-line-border-content-3 {
+  width: 33%;
+  height: 214px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.header-line-border p {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: var(--color1);
+}
+
+.header-line-border-content-h2-info {
+  color: var(--color2);
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: 600;
+
+}
+
+/* MAIN */
+main {
+  height: 745px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-achevments {
+
+  width: 1296px;
+  height: 745px;
+}
+
+.main-achevments h2 {
+  font-size: 52px;
+  text-transform: uppercase;
+  width: 636px;
+  height: 136px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+}
+
+.main-rectangle-1,
+.main-rectangle-2,
+.main-rectangle-3,
+.main-rectangle-4 {
+  display: flex;
+  flex-direction: row;
+  width: 10px;
+  height: 10px;
+  background: var(--color1);
+  transform: rotate(-45deg);
+  margin-top: 40px;
+  margin-right: 30px;
+  margin-bottom: 60px;
+
+}
+
+.main-achievements-info {
+  width: 526px;
+  height: 116px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.03em;
+}
+
+.main-achievements-container {
+  position: relative;
+}
+
+.main-achievements-container-1 {
+  position: relative;
+  top: -363px;
+  left: 625px;
+  height: 708px;
+  width: 318px;
+  border: 1px solid #898989;
+}
+
+.main-achievements-container-2 {
+  position: relative;
+  top: -1035px;
+  left: 942px;
+  height: 708px;
+  width: 318px;
+  border: 1px solid #898989;
+}
+
+.main-achievements-container-row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 177px;
+  width: 318px;
+  border-bottom: 1px solid #898989;
+}
+
+.main-achievement-h3 {
+  color: var(--color1);
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  width: 28px;
+  height: 45px;
+}
+
+.main-achievements-container-row p {
+  width: 277px;
+  height: 44px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  text-transform: uppercase;
+  text-align: center;
 }
