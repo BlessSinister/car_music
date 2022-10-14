@@ -1,4 +1,6 @@
 import React from "react";
+import prize from './prize_icon.png'
+
 
 class Main extends React.Component {
     render() {
@@ -19,7 +21,7 @@ class Main extends React.Component {
                         <div className="main-achievements-container-1">
                             <div className="main-achievements-container-row">
                                 <h3 className="main-achievement-h3">
-                                    #1
+                                    1
                                 </h3>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
@@ -27,7 +29,7 @@ class Main extends React.Component {
                             </div>
                             <div className="main-achievements-container-row">
                                 <h3 className="main-achievement-h3">
-                                    #6
+                                    6
                                 </h3>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
@@ -35,7 +37,7 @@ class Main extends React.Component {
                             </div>
                             <div className="main-achievements-container-row">
                                 <h3 className="main-achievement-h3">
-                                    #2
+                                    2
                                 </h3>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
@@ -43,7 +45,7 @@ class Main extends React.Component {
                             </div>
                             <div className="main-achievements-container-row">
                                 <h3 className="main-achievement-h3">
-                                    #1
+                                    1
                                 </h3>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
@@ -51,10 +53,27 @@ class Main extends React.Component {
                             </div>
                         </div>
                         <div className="main-achievements-container-2">
-                            <div className="main-achievements-container-row"></div>
-                            <div className="main-achievements-container-row"></div>
-                            <div className="main-achievements-container-row"></div>
-                            <div className="main-achievements-container-row"></div>
+                            <div className="main-achievements-container-row"><h3 className="main-achievement-h3">4</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
+                                </p>
+                            </div>
+                            <div className="main-achievements-container-row"><h3 className="main-achievement-h3">3</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
+                                </p>
+                            </div>
+                            <div className="main-achievements-container-row"><h3 className="main-achievement-h3">1</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
+                                </p>
+                            </div>
+                            <div className="main-achievements-container-row">
+                                <img src={prize} alt="" />
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </section>
