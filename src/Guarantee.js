@@ -2,6 +2,9 @@ import React from "react"
 import icon1 from './guarantee_icon_1.png'
 import icon2 from './guarantee_icon_2.png'
 import icon3 from './guarantee_icon_3.png'
+import carImage from './guarantee_image.png'
+import arrowLeft from './arrow_left.png'
+import arrowRight from './arrow_right.png'
 
 class Guarantee extends React.Component {
     render() {
@@ -45,10 +48,16 @@ class Guarantee extends React.Component {
                 </div>
 
                 <div className="guarantee-container-2">
-                    <img src="" alt="" />
-                    <div></div>
-                    <p></p>
-                    <div></div>
+                    <img src={carImage} alt="" />
+                    <div className="guarantee-container-2-block-position">
+                        <div className="slider-arrow-container">
+                            <img src={arrowLeft} alt="" />
+                        </div>
+                        <p className="guarantee-container-2-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque auctor nibh feugiat est. Consectetur lectus.</p>
+                        <div className="slider-arrow-container slider-arrow-container-right">
+                            <img src={arrowRight} alt="" />
+                        </div>
+                    </div>
                 </div>
 
             </section>
