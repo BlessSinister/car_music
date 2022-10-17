@@ -842,3 +842,79 @@ main {
 .footer-textarea:focus {
   border: 1px solid var(--color1);
 }
+
+.footer-textarean-container-position {
+  display: flex;
+}
+
+.icon-footer-position {
+  display: flex;
+  flex-direction: column;
+  padding-left: 70px;
+}
+
+.telegram-icon,
+.youtube-icon,
+.vk-icon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(137, 137, 137, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.vk-icon {
+  margin-bottom: 24px;
+}
+
+.telegram-icon {
+  margin-top: 24px;
+}
+
+.footer-btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 686px;
+}
+
+.footer-btn-container {
+  width: 119px;
+  height: 61px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-btn {
+  width: 71px;
+  height: 61px;
+  background: var(--color1);
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  padding-left: 24px;
+  padding-top: 14px;
+}
+
+.info-container {
+  width: 297px;
+  height: 24px;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.footer-phone-mail-block {
+  margin-top: 10px;
+}
+
+.footer-phone-mail-block img {
+  margin-left: 24px;
+  margin-right: 10px;
+}

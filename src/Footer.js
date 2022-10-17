@@ -1,4 +1,10 @@
 import React from "react";
+import teleg from './teleg_icon.png'
+import youtube from './youtube_icon.png'
+import vk from './vk_icon.png'
+import geo from './geo_icon.png'
+import phone from './phone_icon.png'
+import mail from './mail_icon.png'
 
 class Footer extends React.Component {
     render() {
@@ -16,9 +22,38 @@ class Footer extends React.Component {
                 <form action="" className="footer-form">
                     <input type="text" placeholder="ИМЯ" className="footer-name-input" />
                     <input type="tel" className="footer-tel-input" placeholder="ТЕЛЕФОН" />
-                    <textarea name="question" id="" cols="30" rows="10" placeholder="Вопрос по дизайну, тюнингу и др." className="footer-textarea">
-                    </textarea>
+                    <div className="footer-textarean-container-position">
+                        <textarea name="question" id="" cols="30" rows="10" placeholder="Вопрос по дизайну, тюнингу и др." className="footer-textarea">
+                        </textarea>
+                        <div className="icon-footer-position">
+                            <div className="telegram-icon">
+                                <img src={teleg} alt="" />
+                            </div>
+                            <div className="youtube-icon">
+                                <img src={youtube} alt="" />
+                            </div>
+                            <div className="vk-icon">
+                                <img src={vk} alt="" />
+                            </div>
+                        </div>
+                    </div>
                 </form>
+                <div className="footer-btn-wrapper">
+                    <div className="footer-btn-container">
+                        <div className="footer-btn">
+                            отправить
+                        </div>
+                    </div>
+                    <div className="info-container">
+                        <img src={geo} alt="" /> Eu faucibus et rutrum fringilla orci nunc
+                        <div className="footer-phone-mail-block">
+                            <img src={phone} alt="" />8 (812) 123-45-67
+                            <img src={mail} alt="" />test@test.ru
+                        </div>
+                    </div>
+
+                </div>
+
             </footer>
         )
     }
