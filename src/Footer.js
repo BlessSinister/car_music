@@ -53,8 +53,21 @@ class Footer extends React.Component {
                     </div>
 
                 </div>
+                <hr />
+                <div className="footer-copyrights-block">
+                    <div className="copyrights">
+                        2022 © Est et viverra pellentesque pharetra lorem proin in. Vitae magna at tempus commodo.
+                    </div>
 
-            </footer>
+                    <ul className="footer-nav">
+                        <li className="nav-footer1">Главная</li>
+                        <li className="nav-footer2">Оклейка автомобилей</li>
+                        <li className="nav-footer3">Детейлинг автомобилей</li>
+                        <li className="nav-footer4">Галерея работ</li>
+                    </ul>
+
+                </div>
+            </footer >
         )
     }
 }

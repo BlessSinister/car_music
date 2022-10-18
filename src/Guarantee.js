@@ -54,7 +54,7 @@ class Guarantee extends React.Component {
                             <img src={arrowLeft} alt="" />
                         </div>
                         <p className="guarantee-container-2-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque auctor nibh feugiat est. Consectetur lectus.</p>
-                        <div className="slider-arrow-container slider-arrow-container-right">
+                        <div className="slider-arrow-container right-arrow">
                             <img src={arrowRight} alt="" />
                         </div>
                     </div>

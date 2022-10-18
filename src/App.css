@@ -35,8 +35,6 @@ body {
   height: 100%;
   width: 100%;
   font-size: 100%;
-  line-height: 1;
-  font-size: 14px;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -917,4 +915,34 @@ main {
 .footer-phone-mail-block img {
   margin-left: 24px;
   margin-right: 10px;
+}
+
+footer hr {
+  width: 1920px;
+  border: 1px solid #898989;
+  margin-top: 180px;
+}
+
+.footer-copyrights-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-nav {
+  margin-bottom: 30px;
+}
+
+.copyrights {
+  font-size: 16px;
+  line-height: 140%;
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.right-arrow img {
+  padding-left: 5px;
+  padding-right: 0px;
 }

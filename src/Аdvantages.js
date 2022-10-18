@@ -17,7 +17,7 @@ class Аdvantages extends React.Component {
                             <img src={arrowLeft} alt="" />
                         </div>
                         <p className="guarantee-container-2-p">Neque metus vitae urna purus aliquam. Felis nullam pellentesque ac mi commodo, amet, porta in. Dui.</p>
-                        <div className="slider-arrow-container slider-arrow-container-right">
+                        <div className="slider-arrow-container right-arrow">
                             <img src={arrowRight} alt="" />
                         </div>
                     </div>

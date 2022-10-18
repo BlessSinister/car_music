@@ -37,7 +37,7 @@ class Slider extends React.Component {
                             </p>
                         </div>
                     </div>
-                    <div className="slider-arrow-container">
+                    <div className="slider-arrow-container right-arrow">
                         <img src={arrowRight} alt="" />
                     </div>
                 </div>
